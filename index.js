@@ -2,19 +2,14 @@
 class Polygon {
   constructor(sides){
     this.sides = sides;
-    this.count = sides.length
+    this.count = this.sides.length
   }
-  get countSides(arr){
-    for(let i = 0; i < this.arr.length; i++){
-      return this.arr[i].count
-    }
+  get countSides(){
+    return this.count
   }
   
   get perimeter(arr){
-    let result = []
-    for(let i = 0; i < this.arr.length; i++){
-      
-    }
+ 
   }
 }
 
